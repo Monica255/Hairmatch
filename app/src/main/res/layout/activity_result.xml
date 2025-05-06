@@ -45,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="Rekomendasi"
+                android:text="Round"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 android:textStyle="bold"
@@ -76,7 +76,7 @@
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cv_style_1"
                     android:layout_width="150dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="170dp"
                     android:layout_marginHorizontal="5dp"
                     android:layout_marginVertical="10dp"
                     android:elevation="8dp"
@@ -85,24 +85,18 @@
                     app:layout_constraintEnd_toEndOf="parent">
 
                     <LinearLayout
+                        android:layout_marginVertical="10dp"
                         android:paddingVertical="5dp"
                         android:gravity="center"
                         android:paddingHorizontal="20dp"
                         android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="match_parent">
                         <TextView
                             android:textColor="@color/red"
                             android:textSize="16dp"
                             android:textStyle="bold"
                             android:text="1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
-                        <TextView
-                            android:id="@+id/tv_type_1"
-                            android:textSize="14dp"
-                            android:textStyle="bold"
-                            android:text="Round"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
                         <ImageView
@@ -132,11 +126,12 @@
                         android:layout_marginVertical="10dp"
                         android:id="@+id/cv_style_2"
                         android:layout_width="150dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="170dp"
                         android:layout_marginEnd="10dp"
                         android:elevation="8dp">
 
                         <LinearLayout
+                            android:layout_marginVertical="10dp"
                             android:paddingVertical="5dp"
                             android:gravity="center"
                             android:paddingHorizontal="20dp"
@@ -148,13 +143,6 @@
                                 android:textSize="16dp"
                                 android:textStyle="bold"
                                 android:text="2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-                            <TextView
-                                android:id="@+id/tv_type_2"
-                                android:textSize="14dp"
-                                android:textStyle="bold"
-                                android:text="Round"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                             <ImageView
@@ -177,12 +165,13 @@
                     <androidx.cardview.widget.CardView
                         android:id="@+id/cv_style_3"
                         android:layout_width="150dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="170dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginVertical="10dp"
                         android:elevation="8dp">
 
                         <LinearLayout
+                            android:layout_marginVertical="10dp"
                             android:paddingVertical="5dp"
                             android:gravity="center"
                             android:paddingHorizontal="20dp"
@@ -194,13 +183,6 @@
                                 android:textSize="16dp"
                                 android:textStyle="bold"
                                 android:text="3"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
-                            <TextView
-                                android:id="@+id/tv_type_3"
-                                android:textSize="14dp"
-                                android:textStyle="bold"
-                                android:text="Round"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                             <ImageView

@@ -25,8 +25,6 @@ class ResultActivity : AppCompatActivity() {
         try {
             image = intent.getStringExtra("image")
             data = intent.getParcelableExtra("data", Response::class.java)
-            Log.d("error",image.toString())
-            Log.d("error",data.toString())
         }catch (e:Exception){
             Log.d("error",e.message.toString())
         }
@@ -35,16 +33,13 @@ class ResultActivity : AppCompatActivity() {
             val imageUri = Uri.parse(image)
             data?.let {
                 with(binding){
+                    tvTitle.text = it.prediction.classLabel.capitalize()
                     ivImage.setImageURI(imageUri)
-                    // type
-                    tvType1.text = it.topThree[0].classLabel.capitalize()
-                    tvType2.text = it.topThree[1].classLabel.capitalize()
-                    tvType3.text = it.topThree[2].classLabel.capitalize()
 
                     // style
-                    tvStyle1.text = getString(R.string.style_format, it.topThree[0].recommendation.capitalize())
-                    tvStyle2.text = getString(R.string.style_format, it.topThree[1].recommendation.capitalize())
-                    tvStyle3.text = getString(R.string.style_format, it.topThree[2].recommendation.capitalize())
+                    tvStyle1.text = getString(R.string.style_format, it.prediction.recommendation[0].capitalize())
+                    tvStyle2.text = getString(R.string.style_format, it.prediction.recommendation[1].capitalize())
+                    tvStyle3.text = getString(R.string.style_format, it.prediction.recommendation[2].capitalize())
                 }
             }
         }

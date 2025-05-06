@@ -6,8 +6,8 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Response(
-    @SerializedName("top_3_predictions")
-    var topThree: List<FaceType>,
+    @SerializedName("top_prediction")
+    var prediction: FaceType,
     val error:Boolean,
     val message:String,
 ):Parcelable
@@ -21,5 +21,5 @@ data class FaceType(
     @SerializedName("confidence")
     val confidence: Double,
     @SerializedName("recommendation")
-    val recommendation:String
+    val recommendation:List<String>
 ):Parcelable
