@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="package_name">com.example.hairmatch</string>
+    <string name="app_name">Hairmatch</string>
+    <string name="choose_picture">Pilih Gambar</string>
+
+    <string name="message">Message  :</string>
+    <string name="from_galeri">Dari galeri</string>
+    <string name="take_picture">Ambil gambar</string>
+    <string name="cancel">Batal</string>
+    <string name="select_photo">Pilih foto</string>
+    <string name="input_picture">Input gambar</string>
+    <string name="style_format">Style: %s</string>
+</resources>
