@@ -1,10 +1,14 @@
 package com.example.hairmatch.ui
 
+import android.annotation.SuppressLint
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.hairmatch.databinding.ActivityHomeBinding
 import dagger.hilt.android.AndroidEntryPoint
+import androidx.core.net.toUri
 
 @AndroidEntryPoint
 class HomeActivity : AppCompatActivity() {

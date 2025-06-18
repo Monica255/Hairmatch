@@ -21,5 +21,13 @@ data class FaceType(
     @SerializedName("confidence")
     val confidence: Double,
     @SerializedName("recommendation")
-    val recommendation:List<String>
+    val recommendation:List<HairStyle>
+):Parcelable
+
+@Parcelize
+data class HairStyle(
+    @SerializedName("name")
+    val name:String,
+    @SerializedName("url_filter")
+    val urlFilter:String,
 ):Parcelable
