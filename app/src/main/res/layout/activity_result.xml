@@ -100,10 +100,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
                         <ImageView
+                            android:id="@+id/iv_style_1"
                             android:layout_margin="10dp"
                             android:src="@drawable/style_a"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"/>
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"/>
                         <TextView
                             android:textAlignment="center"
                             android:id="@+id/tv_style_1"
@@ -146,10 +147,11 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                             <ImageView
+                                android:id="@+id/iv_style_2"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/style_a"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"/>
                             <TextView
                                 android:textAlignment="center"
                                 android:id="@+id/tv_style_2"
@@ -186,10 +188,11 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                             <ImageView
+                                android:id="@+id/iv_style_3"
                                 android:layout_margin="10dp"
                                 android:src="@drawable/style_a"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"/>
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"/>
                             <TextView
                                 android:textAlignment="center"
                                 android:id="@+id/tv_style_3"
