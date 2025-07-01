@@ -94,9 +94,9 @@
                         android:layout_height="match_parent">
                         <TextView
                             android:textColor="@color/red"
-                            android:textSize="16dp"
+                            android:textSize="16sp"
                             android:textStyle="bold"
-                            android:text="1"
+                            android:text="Formal"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"/>
                         <ImageView
@@ -107,7 +107,7 @@
                         <TextView
                             android:textAlignment="center"
                             android:id="@+id/tv_style_1"
-                            android:textSize="14dp"
+                            android:textSize="14sp"
                             android:textStyle="bold"
                             android:text="@string/style_format"
                             android:layout_width="wrap_content"
@@ -140,9 +140,9 @@
                             android:layout_height="match_parent">
                             <TextView
                                 android:textColor="@color/yellow"
-                                android:textSize="16dp"
+                                android:textSize="16sp"
                                 android:textStyle="bold"
-                                android:text="2"
+                                android:text="Casual"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                             <ImageView
@@ -153,7 +153,7 @@
                             <TextView
                                 android:textAlignment="center"
                                 android:id="@+id/tv_style_2"
-                                android:textSize="14dp"
+                                android:textSize="14sp"
                                 android:textStyle="bold"
                                 android:text="@string/style_format"
                                 android:layout_width="wrap_content"
@@ -180,9 +180,9 @@
                             android:layout_height="match_parent">
                             <TextView
                                 android:textColor="@color/green"
-                                android:textSize="16dp"
+                                android:textSize="16sp"
                                 android:textStyle="bold"
-                                android:text="3"
+                                android:text="Tren"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"/>
                             <ImageView
@@ -193,7 +193,7 @@
                             <TextView
                                 android:textAlignment="center"
                                 android:id="@+id/tv_style_3"
-                                android:textSize="14dp"
+                                android:textSize="14sp"
                                 android:textStyle="bold"
                                 android:text="@string/style_format"
                                 android:layout_width="wrap_content"
